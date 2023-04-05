@@ -5,8 +5,9 @@ import ContactList from '../ContactList/ContactList';
 import css from './App.module.css';
 
 export default function App() {
-  const savedStorage = JSON.parse(localStorage.getItem('contacts'));
-  const [contacts, setContacts] = useState(savedStorage ?? []);
+  const [contacts, setContacts] = useState(
+    () => JSON.parse(localStorage.getItem('contacts')) ?? []
+  );
   const [filter, setFilter] = useState('');
 
   useEffect(() => {
