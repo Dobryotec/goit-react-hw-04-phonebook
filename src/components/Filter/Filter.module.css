@@ -1,0 +1,24 @@
+.filter {
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.label {
+  font-weight: 600;
+  transition: color 700ms;
+  cursor: pointer;
+}
+.label:hover {
+  color: blue;
+}
+.input {
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-left: 20px;
+  min-height: 30px;
+  font-size: 20px;
+  color: blue;
+}

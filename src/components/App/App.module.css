@@ -1,0 +1,26 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  transition: color 700ms;
+  cursor: pointer;
+}
+.title:hover {
+  color: blue;
+}
+
+.subtitle {
+  text-align: center;
+  transition: color 700ms;
+  cursor: pointer;
+}
+.subtitle:hover {
+  color: blue;
+}
